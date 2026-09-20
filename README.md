@@ -41,3 +41,20 @@ src/
     ├── Ship.java                 # Sea transport product
     ├── Transport.java            # Transport product contract
     └── Truck.java                # Road transport product
+
+
+🛠️ PrerequisitesJava Development Kit (JDK): Version 17 or higher.IDE: IntelliJ IDEA (recommended) or any standard Java IDE / terminal.🚀 How to Build and RunOption 1: IntelliJ IDEA (Recommended)Open the project folder in IntelliJ IDEA.Ensure the SDK is set to JDK 17 (File -> Project Structure -> Project).Navigate to src/app/Main.java.Right-click Main.java and select Run 'Main.main()' (or press Shift + F10).Option 2: Command Line Interface (CLI)Open terminal in the root project directory (2assspd).Compile all Java source files into an out folder:Bashjavac -d out src/logistics/*.java src/gui/*.java src/app/*.java
+Run the application:Bashjava -cp out app.Main
+⚙️ Supported Input ValuesWhen prompted, enter one value for delivery mode and one value for UI platform (case-insensitive):CategoryValid InputsDescriptionDelivery ModeROADUses Truck for land transportationSEAUses Ship for maritime transportationUI PlatformWINDOWSRenders WindowsButton and WindowsCheckboxMACOSRenders MacOSButton and MacOSCheckboxNote: Entering invalid values (e.g., AIR or LINUX) will trigger input validation, display an error message, and safely terminate execution.💻 Sample RunConsole Interaction:PlaintextDelivery mode (ROAD or SEA): 
+ROAD
+UI platform (WINDOWS or MACOS): 
+WINDOWS
+Rendering Windows button
+Rendering Windows checkbox
+Truck delivers laboratory equipment to Aktau warehouse
+
+Process finished with exit code 0
+
+### Что дальше:
+1. Закоммить этот `README.md` в гите (`git add README.md`, `git commit -m "docs: add comprehensive README"`, `git push`)[cite: 1].
+2. Убедись, что на GitHub в главном меню репозитория этот README красиво отображается внизу[cite: 1].
